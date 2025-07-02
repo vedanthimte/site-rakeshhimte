@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import "./Popup.css";
-import popup1 from "../assets/w13.jpg";
+import popup1 from "../assets/w14.jpg";
 
 
 const images = [popup1]; // Add/remove images here

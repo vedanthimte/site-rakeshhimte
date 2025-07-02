@@ -14,6 +14,7 @@ import w10 from "../assets/w10.jpg";
 import w11 from "../assets/w11.jpg";
 import w12 from "../assets/w12.jpg";
 import w13 from "../assets/w13.jpg";
+import w14 from "../assets/w14.jpg";
 
 
 export default function Gallery() {
@@ -31,6 +32,7 @@ export default function Gallery() {
     { src: w11, title: "Carrer Guidance", caption: "Seminar at Annasaheb Vartak College, Vasai" },
     { src: w12, title: "Carrer Guidance", caption: "Seminar at Annasaheb Vartak College, Vasai" },
     { src: w13, title: "OBE Seminar", caption: "Seminar at VCET, Vasai" },
+    { src: w14, title: "Webinar", caption: "Futuristic carrer prospects" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(null);
