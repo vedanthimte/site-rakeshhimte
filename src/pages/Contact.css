@@ -1,0 +1,158 @@
+.contact-page {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.contact-page p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Contact Info Card */
+.contact-info-card {
+  background: #003366;
+  color: #ffffff;
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  padding: 35px 30px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-info-card h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ffffff66;
+  padding-bottom: 10px;
+}
+
+.contact-info-card p, a {
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffffdd;
+  word-break: break-word;
+  text-decoration: none;
+}
+
+.contact-info-card .social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 18px;
+}
+
+.contact-info-card .social-icons a {
+  font-size: 1.6rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.contact-info-card .social-icons a:hover {
+  color: #ffcc00;
+}
+
+/* Contact Form Card */
+.contact-form-card {
+  background: #f9f9f9;
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  padding: 35px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.contact-form-card form input,
+.contact-form-card form textarea {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form-card form button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form-card form button:hover {
+  background-color: #00509e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-page h2 {
+    font-size: 2rem;
+  }
+
+  .contact-info-card,
+  .contact-form-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.form-status {
+  margin-top: 12px;
+  font-weight: 600;
+  color: green;
+}
+.form-error {
+  color: red;
+  font-weight: 600;
+}
+
+.form-status {
+  margin-top: 10px;
+  font-weight: 600;
+  color: green;
+}
+.form-status:has(:contains("❌")) {
+  color: red;
+}
+
+button:disabled {
+  opacity: 1;
+  cursor: not-allowed;
+}
+
