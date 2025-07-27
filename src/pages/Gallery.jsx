@@ -15,6 +15,10 @@ import w11 from "../assets/w11.jpg";
 import w12 from "../assets/w12.jpg";
 import w13 from "../assets/w13.jpg";
 import w14 from "../assets/w14.jpg";
+import w15 from "../assets/w15.jpg";
+import w16 from "../assets/w16.jpg";
+import w17 from "../assets/w17.jpg";
+import w18 from "../assets/w18.jpg";
 
 
 export default function Gallery() {
@@ -33,6 +37,12 @@ export default function Gallery() {
     { src: w12, title: "Carrer Guidance", caption: "Seminar at Annasaheb Vartak College, Vasai" },
     { src: w13, title: "OBE Seminar", caption: "Seminar at VCET, Vasai" },
     { src: w14, title: "Webinar", caption: "Futuristic carrer prospects" },
+    { src: w15, title: "Seminar ", caption: "" },
+    { src: w16, title: "Seminar ", caption: "" },
+    { src: w17, title: "Seminar ", caption: "" },
+    { src: w18, title: "Seminar ", caption: "" },
+
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(null);
