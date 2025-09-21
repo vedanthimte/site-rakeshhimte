@@ -19,6 +19,10 @@ import w15 from "../assets/w15.jpg";
 import w16 from "../assets/w16.jpg";
 import w17 from "../assets/w17.jpg";
 import w18 from "../assets/w18.jpg";
+import w19 from "../assets/w19.jpg";
+import w20 from "../assets/w20.jpg";
+import w21 from "../assets/w21.jpg";
+import w22 from "../assets/w22.jpg";
 
 
 export default function Gallery() {
@@ -41,6 +45,10 @@ export default function Gallery() {
     { src: w16, title: "Seminar ", caption: "" },
     { src: w17, title: "Seminar ", caption: "" },
     { src: w18, title: "Seminar ", caption: "" },
+    { src: w19, title: "Seminar ", caption: "" },
+    { src: w20, title: "Seminar ", caption: "" },
+    { src: w21, title: "Seminar ", caption: "" },
+    { src: w22, title: "Seminar ", caption: "" },
 
 
   ];
