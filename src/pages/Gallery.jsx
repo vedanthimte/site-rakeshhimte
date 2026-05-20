@@ -23,10 +23,16 @@ import w19 from "../assets/w19.jpg";
 import w20 from "../assets/w20.jpg";
 import w21 from "../assets/w21.jpg";
 import w22 from "../assets/w22.jpg";
+import q1 from "../assets/q1.png";
+import q2 from "../assets/q2.png";
+import q3 from "../assets/q3.png";
 
 
 export default function Gallery() {
   const images = [
+    { src: q1, title: "Quote", caption: "" },
+    { src: q2, title: "Quote", caption: "" },
+    { src: q3, title: "Quote", caption: "" },
     { src: w1, title: "Workshop ", caption: "Interactive session on career guidance." },
     { src: w2, title: "Workshop ", caption: "Team training at corporate event." },
     { src: w3, title: "Seminar ", caption: "Seminar on Soft Skills Development." },
