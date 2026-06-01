@@ -26,10 +26,12 @@ import w22 from "../assets/w22.jpg";
 import q1 from "../assets/q1.png";
 import q2 from "../assets/q2.png";
 import q3 from "../assets/q3.png";
+import q4 from "../assets/q4.png";
 
 
 export default function Gallery() {
   const images = [
+    { src: q4, title: "Quote", caption: "" },
     { src: q1, title: "Quote", caption: "" },
     { src: q2, title: "Quote", caption: "" },
     { src: q3, title: "Quote", caption: "" },
