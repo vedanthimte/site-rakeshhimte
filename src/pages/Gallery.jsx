@@ -30,10 +30,12 @@ import q4 from "../assets/q4.png";
 import q5 from "../assets/q5.png";
 import q6 from "../assets/q6.png";
 import q7 from "../assets/q7.png";
+import q8 from "../assets/q8.png";
 
 
 export default function Gallery() {
   const images = [
+    { src: q8, title: "Quote", caption: "" },
     { src: q5, title: "Quote", caption: "" },
     { src: q6, title: "Quote", caption: "" },
     { src: q7, title: "Quote", caption: "" },
